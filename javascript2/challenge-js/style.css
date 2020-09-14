@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #fe3040;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper button {
+    width: 10rem;
+    height: 5rem;
+    display: block;
+    background-color: #306895;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    transition: all .35s ease;
+    cursor: pointer;
+  }
+  .wrapper button:hover {
+    background-color: #307890;
+  }
+  .wrapper button:focus {
+    outline: none;
+  }
+  
